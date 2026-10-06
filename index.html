@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,6 +19,9 @@
   "@context":"https://schema.org",
   "@type":"ProfessionalService",
   "name":"樂衍 AI 導入顧問",
+  "url":"https://leyan.nordchiou.com/",
+  "image":"https://leyan.nordchiou.com/assets/photos/hero.jpg",
+  "serviceType":["診所 AI 導入","LINE AI 客服","醫療行銷內容","診所流程自動化"],
   "description":"診所 AI 導入服務：LINE AI 客服預約、樂晴 HIS 資料串接、健保申報預檢、AI 行銷內容、客製自動化。",
   "telephone":"+886-926-192-178",
   "areaServed":"TW",
@@ -27,6 +30,64 @@
   "knowsAbout":["診所 AI 導入","樂晴 HIS","LINE AI 客服","健保申報","診所行銷"]
 }
 </script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "病人資料交給 AI 安全嗎？",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "資料處理遵循個資法與樂衍 ISO 27001 資訊安全規範，只使用完成任務所需的最少資料，並可依診所要求做去識別化處理。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "AI 會不會亂回答病人問題？",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "AI 客服只依診所確認過的內容回答，遇到醫療判斷或無法確定的問題，會轉交給真人處理，不會自行給醫療建議。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "我不是用樂晴系統，也可以導入嗎？",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "可以。LINE AI 客服、行銷內容、客製小工具都不限系統；資料串接類服務則需評估你的系統是否提供資料存取方式。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "導入需要多久？",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "依項目而定。LINE AI 櫃台、行銷內容通常較快上線；需要串接資料的服務，會在評估後提供時程。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "費用怎麼算？",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "先免費評估，依診所規模與導入項目報價，不會有隱藏費用。"
+   }
+  }
+ ]
+}
+</script>
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="邱珞">
+<meta name="theme-color" content="#14A37F">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1536">
+<meta property="og:image:alt" content="明亮的診所候診區與櫃台">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" as="image" href="assets/photos/hero.jpg" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
@@ -296,7 +357,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-s
       </div>
     </div>
     <div class="collage">
-      <div class="main ph"><img src="assets/photos/hero.jpg" alt="明亮的診所候診區與櫃台" onerror="this.remove()"></div>
+      <div class="main ph"><img src="assets/photos/hero.jpg" width="1024" height="1536" alt="明亮的診所候診區與櫃台" onerror="this.remove()"></div>
       <div class="stamp"><small>病人預約時間</small><b>01:24</b><small>診所下班了，AI 還在</small></div>
       <div class="chat" aria-hidden="true">
         <div class="hd"><i></i>你的診所<span>LINE</span></div>
@@ -324,7 +385,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-s
         <p class="lead">每一個讓櫃台和院長頭痛的時刻，都有對應的 AI 解法。</p>
       </div>
       <figure class="day-ph">
-        <div class="ph"><img src="assets/photos/team.jpg" alt="診所櫃台人員接待病人" onerror="this.remove()"></div>
+        <div class="ph"><img src="assets/photos/team.jpg" width="1024" height="1024" loading="lazy" decoding="async" alt="診所櫃台人員接待病人" onerror="this.remove()"></div>
         <figcaption>櫃台忙著照顧眼前的病人，<br>其他的事交給 AI。</figcaption>
       </figure>
     </div>
@@ -353,7 +414,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-s
           <h3>24 小時 LINE AI 櫃台</h3>
           <p>回答營業時間、自費項目、術前術後注意事項，引導病人完成預約，資料直接寫進樂晴系統。半夜的訊息，也不用等到隔天回。</p>
         </div>
-        <div class="ph"><img src="assets/photos/phone.jpg" alt="病人在候診區用手機傳訊息" onerror="this.remove()"></div>
+        <div class="ph"><img src="assets/photos/phone.jpg" width="1024" height="1024" loading="lazy" decoding="async" alt="病人在候診區用手機傳訊息" onerror="this.remove()"></div>
       </div>
       <div class="tile t-noshow">
         <span class="no">02</span>
@@ -389,7 +450,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-s
 
       <div class="cat"><b>C</b><span>AI 行銷內容</span></div>
       <div class="tile t-photo">
-        <div class="ph"><img src="assets/photos/content.jpg" alt="桌上的筆電、手機與牙齒模型" onerror="this.remove()"></div>
+        <div class="ph"><img src="assets/photos/content.jpg" width="1024" height="1024" loading="lazy" decoding="async" alt="桌上的筆電、手機與牙齒模型" onerror="this.remove()"></div>
         <div class="cap"><span class="no">07</span><h3>衛教文章・社群貼文・圖卡・SEO</h3><p>依診所專長與風格固定產出，可搭配樂衍官網與社群服務。</p></div>
       </div>
       <div class="tile t-content">
@@ -416,7 +477,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-s
           <h3>專屬小工具</h3>
           <p>排班建議、PF 抽成試算、Excel 報表自動化……依你的流程客製。</p>
         </div>
-        <div class="ph"><img src="assets/photos/desk.jpg" alt="診所櫃台桌面" onerror="this.remove()"></div>
+        <div class="ph"><img src="assets/photos/desk.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="診所櫃台桌面" onerror="this.remove()"></div>
       </div>
     </div>
     <div class="note"><span>🩺</span><span>AI 提供的是行政與營運上的協助。涉及病歷、診斷的功能一律定位為「醫師輔助、草稿」，最終判斷由醫師決定，並遵循醫療法規與個資法。</span></div>
@@ -426,7 +487,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-s
 <!-- WHY -->
 <section class="why" id="why" style="background:var(--cream)">
   <div class="wrap split">
-    <div class="ph"><img src="assets/photos/doctor.jpg" alt="醫師在診間查看平板" onerror="this.remove()"></div>
+    <div class="ph"><img src="assets/photos/doctor.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="醫師在診間查看平板" onerror="this.remove()"></div>
     <div>
       <span class="kicker">為什麼找我</span>
       <h2>不只介紹系統，<br>而是<span class="mark">把 AI 做出來</span></h2>
@@ -519,7 +580,7 @@ footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-s
         <a class="phone" href="tel:0926192178">0926-192-178</a>
         <div class="who">邱珞｜樂衍有限公司 AI 工程師</div>
       </div>
-      <div class="ph"><img src="assets/photos/meeting.jpg" alt="導入評估討論" onerror="this.remove()"></div>
+      <div class="ph"><img src="assets/photos/meeting.jpg" width="1536" height="1024" loading="lazy" decoding="async" alt="導入評估討論" onerror="this.remove()"></div>
     </div>
   </div>
 </section>
