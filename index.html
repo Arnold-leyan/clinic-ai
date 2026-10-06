@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>樂衍 AI 導入顧問 邱珞｜診所 AI 客服・樂晴 HIS 串接・免費評估</title>
+<meta name="description" content="樂衍有限公司 AI 工程師邱珞，專責診所 AI 導入：LINE AI 客服預約、樂晴 HIS 資料串接、健保申報預檢、牙醫醫美自費行銷內容與客製自動化。新開業與既有樂晴用戶皆可免費評估。">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:site_name" content="樂衍 AI 導入顧問">
+<meta property="og:title" content="樂衍 AI 導入顧問 邱珞｜讓診所多一位不休息的 AI 員工">
+<meta property="og:description" content="LINE AI 客服、樂晴 HIS 資料串接、健保申報預檢、AI 行銷內容。診所 AI 導入免費評估。">
+<meta property="og:image" content="https://leyan.nordchiou.com/assets/photos/hero.jpg">
+<meta property="og:url" content="https://leyan.nordchiou.com/">
+<link rel="canonical" href="https://leyan.nordchiou.com/">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ProfessionalService",
+  "name":"樂衍 AI 導入顧問",
+  "description":"診所 AI 導入服務：LINE AI 客服預約、樂晴 HIS 資料串接、健保申報預檢、AI 行銷內容、客製自動化。",
+  "telephone":"+886-926-192-178",
+  "areaServed":"TW",
+  "parentOrganization":{"@type":"Organization","name":"樂衍有限公司","url":"https://www.leyan.tw/"},
+  "employee":{"@type":"Person","name":"邱珞","jobTitle":"AI 工程師","worksFor":{"@type":"Organization","name":"樂衍有限公司"}},
+  "knowsAbout":["診所 AI 導入","樂晴 HIS","LINE AI 客服","健保申報","診所行銷"]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FFFFFF; --cream:#FFF8EC; --mint:#E7F7F1; --sky:#EAF4FF; --sun:#FFD25E; --sun-soft:#FFF1C7;
+  --coral:#FF7A59; --coral-soft:#FFE6DE;
+  --green:#14A37F; --green-ink:#0C7A5F; --line-green:#06C755;
+  --text:#1E2A27; --muted:#62716D; --line:#ECEFEE;
+  --shadow:0 18px 40px -18px rgba(30,60,50,.28);
+  --serif:"Noto Serif TC",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans TC",system-ui,-apple-system,"Microsoft JhengHei",sans-serif;line-height:1.75;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:var(--green-ink)}
+.wrap{max-width:1160px;margin:0 auto;padding:0 16px}
+section{padding:96px 0}
+h1,h2,h3{line-height:1.25;margin:0}
+h2{font-family:var(--serif);font-size:clamp(1.8rem,3.6vw,2.6rem);font-weight:900}
+.kicker{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.88rem;color:var(--green-ink);margin-bottom:14px}
+.kicker::before{content:"";width:22px;height:2px;background:currentColor}
+.lead{color:var(--muted);font-size:1.05rem;max-width:640px;margin:16px 0 0}
+.mark{background:linear-gradient(transparent 60%,var(--sun) 60%);padding:0 2px}
+.ph{background:linear-gradient(135deg,var(--mint),var(--sky))}
+.ph img{width:100%;height:100%;object-fit:cover}
+
+/* nav */
+header.nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+header.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:66px;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-weight:900;white-space:nowrap}
+.logo i{font-style:normal;width:34px;height:34px;border-radius:50% 50% 50% 8px;background:var(--green);color:#fff;display:grid;place-items:center;font-size:.78rem}
+.logo small{font-weight:500;color:var(--muted);font-size:.8rem;margin-left:4px}
+nav.links{display:flex;gap:26px;font-size:.95rem}
+nav.links a{color:var(--muted);text-decoration:none}
+nav.links a:hover{color:var(--green-ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--text);color:#fff;text-decoration:none;font-weight:700;padding:13px 24px;border-radius:999px;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.btn.green{background:var(--green)}
+.btn.line{background:#fff;color:var(--text);border:1.5px solid var(--text)}
+.btn.small{padding:9px 18px;font-size:.9rem}
+@media (max-width:860px){nav.links{display:none}.logo small{display:none}}
+
+/* hero */
+.hero{padding:56px 0 40px;position:relative;background:
+  radial-gradient(600px 400px at 85% 10%,var(--sun-soft),transparent 70%),
+  radial-gradient(500px 400px at 0% 90%,var(--mint),transparent 70%)}
+.hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);padding:6px 14px 6px 8px;border-radius:999px;font-size:.88rem;box-shadow:0 4px 14px -8px rgba(0,0,0,.2)}
+.badge b{background:var(--green);color:#fff;border-radius:999px;padding:2px 10px;font-size:.78rem}
+.hero h1{font-family:var(--serif);font-weight:900;font-size:clamp(2.3rem,5.4vw,4rem);margin-top:22px;letter-spacing:.01em}
+.hero h1 .nw{white-space:nowrap}
+.hero .lead{font-size:1.1rem}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.me{display:flex;align-items:center;gap:14px;margin-top:34px;padding-top:24px;border-top:1px dashed #D7DEDC;max-width:520px}
+.me .av{width:52px;height:52px;border-radius:50%;background:var(--sun);display:grid;place-items:center;font-family:var(--serif);font-weight:900;font-size:1.3rem;flex:none}
+.me div{font-size:.92rem;color:var(--muted);line-height:1.6}
+.me b{color:var(--text);font-size:1rem}
+
+.collage{position:relative;height:560px}
+.collage .main{position:absolute;inset:0 40px 0 30px;border-radius:200px 200px 28px 28px;overflow:hidden;box-shadow:var(--shadow)}
+.chat{position:absolute;left:-10px;bottom:70px;width:270px;background:#fff;border-radius:20px;padding:14px;box-shadow:var(--shadow);font-size:.86rem;animation:float 6s ease-in-out infinite}
+.chat .hd{display:flex;align-items:center;gap:8px;font-weight:700;font-size:.82rem;margin-bottom:10px}
+.chat .hd i{width:22px;height:22px;border-radius:7px;background:var(--line-green);display:inline-block}
+.chat .hd span{margin-left:auto;color:var(--muted);font-weight:400;font-size:.75rem}
+.bub{padding:8px 12px;border-radius:14px;margin:6px 0;max-width:88%;line-height:1.5}
+.bub.u{background:#F1F3F2;border-bottom-left-radius:4px}
+.bub.a{background:var(--line-green);color:#fff;margin-left:auto;border-bottom-right-radius:4px}
+.stamp{position:absolute;right:0;top:46px;background:var(--sun);border-radius:18px;padding:14px 18px;box-shadow:var(--shadow);transform:rotate(4deg);font-weight:700;line-height:1.35}
+.stamp b{display:block;font-family:var(--serif);font-size:1.9rem}
+.stamp small{font-weight:500;font-size:.8rem}
+@keyframes float{50%{transform:translateY(-8px)}}
+@media (max-width:920px){
+  .hero .grid{grid-template-columns:1fr;gap:36px}
+  .collage{height:440px;max-width:460px;margin:0 auto;width:100%}
+  .collage .main{inset:0 20px 0 20px}
+  .chat{left:0;width:240px;bottom:30px}
+  .stamp{right:0}
+}
+@media (prefers-reduced-motion:reduce){.chat,.ticker-track{animation:none}}
+
+/* ticker */
+.ticker{background:var(--text);color:#fff;overflow:hidden;padding:16px 0;transform:rotate(-1.2deg);margin:30px -60px 0}
+.ticker-track{display:flex;gap:40px;white-space:nowrap;width:max-content;animation:tick 40s linear infinite;font-weight:700}
+.ticker-track span::after{content:"✦";color:var(--sun);margin-left:40px}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* day timeline */
+.day{background:var(--cream)}
+.day-head{display:grid;grid-template-columns:1fr 420px;gap:40px;align-items:center}
+.day-ph{margin:0;position:relative}
+.day-ph .ph{border-radius:24px 120px 24px 24px;overflow:hidden;aspect-ratio:4/3;box-shadow:var(--shadow)}
+.day-ph figcaption{position:absolute;left:-24px;bottom:-20px;background:#fff;border-radius:16px;padding:12px 16px;font-weight:700;font-size:.9rem;line-height:1.5;box-shadow:var(--shadow);transform:rotate(-2deg)}
+@media (max-width:860px){.day-head{grid-template-columns:1fr;gap:28px}.day-ph{margin-bottom:20px}.day-ph{max-width:420px}.day-ph figcaption{left:12px}}
+.timeline{position:relative;margin-top:56px;display:grid;grid-template-columns:repeat(5,1fr);gap:18px}
+.timeline::before{content:"";position:absolute;left:0;right:0;top:22px;border-top:2px dashed #E5D7BD}
+.tl{position:relative;padding-top:60px}
+.tl .t{position:absolute;top:0;left:0;background:#fff;border:2px solid var(--text);border-radius:999px;padding:6px 14px;font-weight:900;font-family:var(--serif);font-size:1.05rem}
+.tl .card{background:#fff;border-radius:20px;padding:18px;box-shadow:0 8px 24px -16px rgba(80,60,20,.35);height:100%}
+.tl .pain{font-weight:700;margin-bottom:8px}
+.tl .pain::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--coral);margin-right:8px;vertical-align:3px}
+.tl .fix{font-size:.9rem;color:var(--muted);border-top:1px solid var(--line);padding-top:10px}
+.tl .fix b{color:var(--green-ink)}
+@media (max-width:960px){
+  .timeline{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:76%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px;margin-right:-16px;padding-right:16px}
+  .tl{scroll-snap-align:start}
+}
+
+/* bento */
+.bento{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:auto;gap:16px;margin-top:40px}
+.tile{min-height:150px;border-radius:26px;padding:26px;position:relative;overflow:hidden;background:#F6F8F7}
+.tile .no{font-family:var(--serif);font-weight:900;font-size:.95rem;color:var(--green-ink);opacity:.8}
+.tile h3{font-size:1.25rem;margin:6px 0 8px;font-weight:900}
+.tile p{margin:0;color:var(--muted);font-size:.93rem}
+.t-line{grid-column:span 7;grid-row:span 2;background:var(--mint);display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.t-line .ph{border-radius:18px;overflow:hidden;min-height:260px}
+.t-noshow{grid-column:span 5;background:var(--sun-soft)}
+.t-noshow .meter{display:flex;gap:6px;margin-top:16px}
+.t-noshow .meter span{flex:1;height:34px;border-radius:8px;background:#fff;display:grid;place-items:center;font-size:.72rem;color:var(--muted)}
+.t-noshow .meter span.hi{background:var(--coral);color:#fff;font-weight:700}
+.t-ask{grid-column:span 5;background:var(--text);color:#fff}
+.t-ask p{color:#C9D3D0}
+.t-ask .no{color:var(--sun)}
+.t-ask .q{background:rgba(255,255,255,.1);border-radius:14px;padding:10px 14px;margin-top:14px;font-size:.88rem}
+.t-ask .bars{display:flex;align-items:flex-end;gap:8px;height:70px;margin-top:12px}
+.t-ask .bars span{flex:1;background:var(--sun);border-radius:6px 6px 2px 2px}
+.t-ask .bars span:nth-child(odd){background:#5ED3B4}
+.t-nhi{grid-column:span 4;background:var(--sky)}
+.t-nhi .chk{margin-top:14px;display:grid;gap:6px;font-size:.85rem}
+.t-nhi .chk div{background:#fff;border-radius:10px;padding:6px 10px;display:flex;justify-content:space-between}
+.t-nhi .chk em{font-style:normal;font-weight:700;color:var(--green-ink)}
+.t-nhi .chk .warn em{color:var(--coral)}
+.t-recall{grid-column:span 4;background:var(--coral-soft)}
+.t-stock{grid-column:span 4;background:#F3F0FF}
+.t-photo{grid-column:span 5;grid-row:span 2;padding:0;min-height:320px}
+.t-photo .ph{position:absolute;inset:0}
+.t-photo .cap{position:absolute;left:16px;right:16px;bottom:16px;background:rgba(255,255,255,.92);backdrop-filter:blur(6px);border-radius:18px;padding:16px 18px}
+.t-content{grid-column:span 7;background:var(--cream)}
+.t-content .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.t-content .chips span{background:#fff;border-radius:999px;padding:5px 14px;font-size:.85rem;border:1px solid #F0E3C8}
+.t-after{grid-column:span 7;background:var(--mint)}
+.t-launch{grid-column:span 6;background:var(--sun)}
+.t-launch p{color:#5A4A1C}
+.t-tools{grid-column:span 6;background:#F6F8F7;display:grid;grid-template-columns:1fr 140px;gap:18px;align-items:center}
+.t-tools .ph{border-radius:16px;overflow:hidden;height:140px}
+.cat{grid-column:1/-1;display:flex;align-items:center;gap:14px;margin-top:18px}
+.bento>.cat:first-child{margin-top:0}
+.cat b{font-family:var(--serif);font-size:1.3rem}
+.cat span{color:var(--muted);font-size:.9rem}
+.cat::after{content:"";flex:1;height:1px;background:var(--line)}
+@media (max-width:960px){
+  .bento{grid-template-columns:repeat(2,1fr)}
+  .bento>.tile{grid-column:span 2;grid-row:auto}
+  .t-noshow,.t-ask,.t-nhi,.t-recall,.t-stock{grid-column:span 1!important}
+  .t-line{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  .bento>.tile{grid-column:1/-1!important}
+  .t-tools{grid-template-columns:1fr}
+}
+.note{margin-top:28px;display:flex;gap:12px;font-size:.9rem;color:var(--muted);background:#FAFAF8;border-radius:16px;padding:16px 20px;border:1px solid var(--line)}
+
+/* why */
+.why .split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.why .ph{border-radius:28px 28px 28px 120px;overflow:hidden;aspect-ratio:4/3;box-shadow:var(--shadow)}
+.vs{margin-top:28px;display:grid;gap:12px}
+.vs-row{display:grid;grid-template-columns:1fr 40px 1fr;align-items:center;gap:8px}
+.vs-row .a{color:var(--muted);font-size:.92rem;text-decoration:line-through;text-decoration-color:rgba(0,0,0,.25);text-align:right}
+.vs-row .m{width:34px;height:34px;border-radius:50%;background:var(--sun);display:grid;place-items:center;font-weight:900;font-size:.85rem;margin:auto}
+.vs-row .b{font-weight:700;background:var(--mint);border-radius:12px;padding:10px 14px;font-size:.95rem}
+.vs-head{display:grid;grid-template-columns:1fr 40px 1fr;gap:8px;font-size:.8rem;font-weight:700;color:var(--muted)}
+.vs-head span:first-child{text-align:right}
+@media (max-width:860px){.why .split{grid-template-columns:1fr}}
+
+/* plans */
+.plans-sec{background:var(--sky)}
+.plans{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:48px}
+.plan{background:#fff;border-radius:28px;padding:30px;display:flex;flex-direction:column;position:relative}
+.plan .who{font-size:.85rem;font-weight:700;color:var(--muted)}
+.plan h3{font-family:var(--serif);font-size:1.6rem;font-weight:900;margin:6px 0 10px}
+.plan p{color:var(--muted);font-size:.93rem;margin:0 0 18px}
+.plan ul{list-style:none;padding:0;margin:0 0 24px;flex:1;display:grid;gap:8px;align-content:start}
+.plan li{font-size:.94rem;padding-left:26px;position:relative}
+.plan li::before{content:"✓";position:absolute;left:0;top:0;width:18px;height:18px;border-radius:50%;background:var(--mint);color:var(--green-ink);font-size:.7rem;display:grid;place-items:center;font-weight:900;margin-top:4px}
+.plan.hot{background:var(--text);color:#fff;transform:translateY(-12px)}
+.plan.hot .who,.plan.hot p{color:#C9D3D0}
+.plan.hot li::before{background:var(--sun);color:var(--text)}
+.plan.hot .btn{background:var(--sun);color:var(--text)}
+.plan .pin{position:absolute;top:-14px;right:24px;background:var(--coral);color:#fff;font-size:.78rem;font-weight:700;padding:5px 12px;border-radius:999px}
+.plan .free{font-weight:900;font-size:.95rem;margin-bottom:12px}
+@media (max-width:900px){.plans{grid-template-columns:1fr}.plan.hot{transform:none}}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:56px;position:relative}
+.step{padding:0 22px 0 0;position:relative}
+.step .n{width:58px;height:58px;border-radius:50%;border:2px solid var(--text);display:grid;place-items:center;font-family:var(--serif);font-weight:900;font-size:1.3rem;background:#fff;position:relative;z-index:1}
+.step:first-child .n{background:var(--sun);border-color:var(--sun)}
+.step::before{content:"";position:absolute;top:29px;left:58px;right:0;border-top:2px dashed #CBD3D1}
+.step:last-child::before{display:none}
+.step h3{font-size:1.15rem;margin:18px 0 6px}
+.step p{margin:0;color:var(--muted);font-size:.92rem}
+@media (max-width:860px){
+  .steps{grid-template-columns:1fr;gap:26px}
+  .step{display:grid;grid-template-columns:58px 1fr;gap:0 18px;padding:0}
+  .step h3{margin:6px 0 4px}
+  .step .n{grid-row:span 2}
+  .step::before{top:58px;bottom:-26px;left:29px;right:auto;border-top:0;border-left:2px dashed #CBD3D1}
+}
+
+/* faq */
+.faq-sec .split{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px}
+details{border-bottom:1px solid var(--line);padding:20px 0}
+summary{cursor:pointer;font-weight:700;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";width:28px;height:28px;border-radius:50%;background:var(--mint);color:var(--green-ink);display:grid;place-items:center;flex:none;transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg);background:var(--sun);color:var(--text)}
+details p{color:var(--muted);margin:10px 0 0}
+@media (max-width:860px){.faq-sec .split{grid-template-columns:1fr;gap:20px}}
+
+/* contact */
+.contact{padding:0 0 96px}
+.cbox{background:var(--green);color:#fff;border-radius:36px;padding:56px;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;position:relative;overflow:hidden}
+.cbox::before{content:"";position:absolute;width:380px;height:380px;border-radius:50%;background:var(--sun);opacity:.9;right:-120px;top:-160px}
+.cbox>*{position:relative}
+.cbox h2{color:#fff}
+.cbox .lead{color:#DDF5EE}
+.phone{display:inline-block;font-family:var(--serif);font-weight:900;font-size:clamp(2rem,5vw,3.2rem);color:#fff;text-decoration:none;margin-top:22px;border-bottom:3px solid var(--sun);line-height:1.2}
+.cbox .who{margin-top:14px;font-size:.95rem;color:#DDF5EE}
+.cbox .ph{border-radius:24px;overflow:hidden;aspect-ratio:1/1;transform:rotate(3deg);border:8px solid #fff;box-shadow:0 20px 40px -20px rgba(0,0,0,.4)}
+@media (max-width:860px){.cbox{grid-template-columns:1fr;padding:32px 22px;border-radius:28px}.cbox .ph{max-width:280px;transform:rotate(2deg)}}
+
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#top"><i>AI</i>樂衍 AI 導入顧問<small>邱珞</small></a>
+    <nav class="links">
+      <a href="#day">診所的一天</a>
+      <a href="#services">AI 服務</a>
+      <a href="#why">為什麼找我</a>
+      <a href="#plans">方案</a>
+      <a href="#faq">常見問題</a>
+    </nav>
+    <a class="btn small green" href="#contact">免費評估</a>
+  </div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap grid">
+    <div>
+      <span class="badge"><b>樂衍</b>診所 AI 導入・樂晴 HIS 加值服務</span>
+      <h1>讓你的診所<br>多一位<span class="nw"><span class="mark">不休息</span>的</span><br>AI 員工</h1>
+      <p class="lead">LINE 預約客服、健保申報預檢、院長的經營數據助理——直接接進你每天在用的樂晴系統。不用換系統，也不用學新軟體。</p>
+      <div class="cta">
+        <a class="btn green" href="#contact">預約免費評估 →</a>
+        <a class="btn line" href="#services">看 AI 能做什麼</a>
+      </div>
+      <div class="me">
+        <span class="av">珞</span>
+        <div><b>邱珞</b>・樂衍有限公司 AI 工程師<br>負責診所 AI 系統導入，熟悉樂晴 HIS 系統</div>
+      </div>
+    </div>
+    <div class="collage">
+      <div class="main ph"><img src="assets/photos/hero.jpg" alt="明亮的診所候診區與櫃台" onerror="this.remove()"></div>
+      <div class="stamp"><small>病人預約時間</small><b>01:24</b><small>診所下班了，AI 還在</small></div>
+      <div class="chat" aria-hidden="true">
+        <div class="hd"><i></i>你的診所<span>LINE</span></div>
+        <div class="bub u">請問明天下午還能洗牙嗎？</div>
+        <div class="bub a">有的！明天 14:30、16:00 有空檔，要幫您預約哪個時段呢？😊</div>
+        <div class="bub u">16:00 好了，謝謝</div>
+      </div>
+    </div>
+  </div>
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>LINE AI 櫃台</span><span>爽約預測</span><span>院長經營助理</span><span>健保申報預檢</span><span>療程追蹤</span><span>耗材預測</span><span>衛教內容</span><span>術後推播</span><span>開業即 AI</span><span>專屬小工具</span>
+      <span>LINE AI 櫃台</span><span>爽約預測</span><span>院長經營助理</span><span>健保申報預檢</span><span>療程追蹤</span><span>耗材預測</span><span>衛教內容</span><span>術後推播</span><span>開業即 AI</span><span>專屬小工具</span>
+    </div>
+  </div>
+</section>
+
+<!-- A DAY IN CLINIC -->
+<section class="day" id="day">
+  <div class="wrap">
+    <div class="day-head">
+      <div>
+        <span class="kicker">診所的一天</span>
+        <h2>從早到晚，AI 在哪裡幫上忙？</h2>
+        <p class="lead">每一個讓櫃台和院長頭痛的時刻，都有對應的 AI 解法。</p>
+      </div>
+      <figure class="day-ph">
+        <div class="ph"><img src="assets/photos/team.jpg" alt="診所櫃台人員接待病人" onerror="this.remove()"></div>
+        <figcaption>櫃台忙著照顧眼前的病人，<br>其他的事交給 AI。</figcaption>
+      </figure>
+    </div>
+    <div class="timeline">
+      <div class="tl"><span class="t">08:30</span><div class="card"><div class="pain">今天又有 3 個空診</div><div class="fix"><b>爽約預測：</b>前一天就找出高風險病人，加強提醒，空診提前補上。</div></div></div>
+      <div class="tl"><span class="t">11:00</span><div class="card"><div class="pain">看診尖峰，LINE 回不完</div><div class="fix"><b>LINE AI 櫃台：</b>常見問題、預約改期自動處理，櫃台專心照顧現場。</div></div></div>
+      <div class="tl"><span class="t">15:00</span><div class="card"><div class="pain">申報規則好複雜</div><div class="fix"><b>健保申報預檢：</b>上傳前先標出高風險項目，降低核刪。</div></div></div>
+      <div class="tl"><span class="t">19:30</span><div class="card"><div class="pain">想發衛教文，沒人寫</div><div class="fix"><b>AI 行銷內容：</b>依診所風格產出貼文與圖卡，醫師審核就好。</div></div></div>
+      <div class="tl"><span class="t">22:00</span><div class="card"><div class="pain">院長想看這個月營收</div><div class="fix"><b>院長經營助理：</b>用中文直接問，馬上得到數字與圖表。</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES BENTO -->
+<section id="services">
+  <div class="wrap">
+    <span class="kicker">AI 服務</span>
+    <h2>十項 AI 服務，<span class="mark">從最痛的地方</span>開始</h2>
+    <p class="lead">每一項都能單獨導入，也能組合成適合你診所的方案。</p>
+
+    <div class="bento">
+      <div class="cat"><b>A</b><span>LINE AI 客服與預約</span></div>
+      <div class="tile t-line">
+        <div>
+          <span class="no">01</span>
+          <h3>24 小時 LINE AI 櫃台</h3>
+          <p>回答營業時間、自費項目、術前術後注意事項，引導病人完成預約，資料直接寫進樂晴系統。半夜的訊息，也不用等到隔天回。</p>
+        </div>
+        <div class="ph"><img src="assets/photos/phone.jpg" alt="病人在候診區用手機傳訊息" onerror="this.remove()"></div>
+      </div>
+      <div class="tile t-noshow">
+        <span class="no">02</span>
+        <h3>爽約預測＋智慧提醒</h3>
+        <p>依歷史紀錄找出容易爽約的病人，提前加強提醒。</p>
+        <div class="meter" aria-hidden="true"><span>低</span><span>低</span><span class="hi">高風險</span><span>低</span><span>中</span></div>
+      </div>
+      <div class="tile t-ask">
+        <span class="no">03</span>
+        <h3>院長經營助理</h3>
+        <p>用中文問問題，直接得到答案。</p>
+        <div class="q">「上個月植牙自費收入多少？哪位醫師回診率最高？」</div>
+        <div class="bars" aria-hidden="true"><span style="height:45%"></span><span style="height:70%"></span><span style="height:55%"></span><span style="height:90%"></span><span style="height:65%"></span><span style="height:80%"></span></div>
+      </div>
+
+      <div class="cat"><b>B</b><span>串接樂晴 HIS 資料</span></div>
+      <div class="tile t-nhi">
+        <span class="no">04</span>
+        <h3>健保申報預檢</h3>
+        <p>上傳前依規則與過往退件紀錄標出高風險項目。</p>
+        <div class="chk" aria-hidden="true"><div>處置碼對應<em>✓ 通過</em></div><div class="warn">頻率限制<em>! 請確認</em></div><div>ICD-10 編碼<em>✓ 通過</em></div></div>
+      </div>
+      <div class="tile t-recall">
+        <span class="no">05</span>
+        <h3>療程追蹤與流失喚回</h3>
+        <p>自動找出療程中斷、超過半年沒洗牙的病人，產生個人化召回訊息。</p>
+      </div>
+      <div class="tile t-stock">
+        <span class="no">06</span>
+        <h3>耗材用量預測</h3>
+        <p>依過去用量預測耗材需求，快用完前提醒叫貨，不再臨時缺貨。</p>
+      </div>
+
+      <div class="cat"><b>C</b><span>AI 行銷內容</span></div>
+      <div class="tile t-photo">
+        <div class="ph"><img src="assets/photos/content.jpg" alt="桌上的筆電、手機與牙齒模型" onerror="this.remove()"></div>
+        <div class="cap"><span class="no">07</span><h3>衛教文章・社群貼文・圖卡・SEO</h3><p>依診所專長與風格固定產出，可搭配樂衍官網與社群服務。</p></div>
+      </div>
+      <div class="tile t-content">
+        <span class="no">適合</span>
+        <h3>牙醫、醫美、自費診所最有感</h3>
+        <p>把詢問轉成預約，把預約轉成完整療程。</p>
+        <div class="chips"><span>植牙衛教</span><span>矯正 Q&amp;A</span><span>美白前後須知</span><span>節慶貼文</span><span>Google 商家回覆</span></div>
+      </div>
+      <div class="tile t-after">
+        <span class="no">08</span>
+        <h3>個人化術後衛教推播</h3>
+        <p>依病人做的療程，自動透過 LINE 傳送對應的術後說明與回診提醒。</p>
+      </div>
+
+      <div class="cat"><b>D</b><span>客製自動化</span></div>
+      <div class="tile t-launch">
+        <span class="no">09</span>
+        <h3>開業即 AI 套裝</h3>
+        <p>新診所開業時，一次設定好 AI 客服、提醒與報表，開幕第一天就有 AI 員工上班。</p>
+      </div>
+      <div class="tile t-tools">
+        <div>
+          <span class="no">10</span>
+          <h3>專屬小工具</h3>
+          <p>排班建議、PF 抽成試算、Excel 報表自動化……依你的流程客製。</p>
+        </div>
+        <div class="ph"><img src="assets/photos/desk.jpg" alt="診所櫃台桌面" onerror="this.remove()"></div>
+      </div>
+    </div>
+    <div class="note"><span>🩺</span><span>AI 提供的是行政與營運上的協助。涉及病歷、診斷的功能一律定位為「醫師輔助、草稿」，最終判斷由醫師決定，並遵循醫療法規與個資法。</span></div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why" id="why" style="background:var(--cream)">
+  <div class="wrap split">
+    <div class="ph"><img src="assets/photos/doctor.jpg" alt="醫師在診間查看平板" onerror="this.remove()"></div>
+    <div>
+      <span class="kicker">為什麼找我</span>
+      <h2>不只介紹系統，<br>而是<span class="mark">把 AI 做出來</span></h2>
+      <div class="vs">
+        <div class="vs-head"><span>一般業務</span><span></span><span>樂衍 AI 工程師 邱珞</span></div>
+        <div class="vs-row"><span class="a">介紹現成功能</span><span class="m">→</span><span class="b">依診所流程客製 AI</span></div>
+        <div class="vs-row"><span class="a">AI 需求轉外包</span><span class="m">→</span><span class="b">規劃、建置、串接一手包辦</span></div>
+        <div class="vs-row"><span class="a">不熟系統資料</span><span class="m">→</span><span class="b">了解樂晴 HIS 系統與資料</span></div>
+        <div class="vs-row"><span class="a">問題層層轉達</span><span class="m">→</span><span class="b">導入後直接找我調整</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLANS -->
+<section class="plans-sec" id="plans">
+  <div class="wrap">
+    <span class="kicker">導入方案</span>
+    <h2>三種方向，先免費評估再決定</h2>
+    <p class="lead">每間診所狀況不同，費用依評估結果與導入範圍報價。</p>
+    <div class="plans">
+      <div class="plan">
+        <span class="who">新開業診所</span>
+        <h3>開業即 AI</h3>
+        <p>搭配樂衍開業一條龍服務，開幕就有 AI 員工。</p>
+        <ul><li>LINE AI 櫃台</li><li>預約與爽約提醒</li><li>開業行銷內容</li><li>經營報表助理</li></ul>
+        <div class="free">免費評估</div>
+        <a class="btn" href="#contact">我要評估</a>
+      </div>
+      <div class="plan hot">
+        <span class="pin">樂晴用戶首選</span>
+        <span class="who">既有樂晴用戶</span>
+        <h3>系統 AI 加值</h3>
+        <p>不換系統，直接把 AI 接進你現有的資料。</p>
+        <ul><li>院長經營助理</li><li>健保申報預檢</li><li>療程追蹤與流失喚回</li><li>耗材用量預測</li></ul>
+        <div class="free">免費評估</div>
+        <a class="btn" href="#contact">我要評估</a>
+      </div>
+      <div class="plan">
+        <span class="who">牙醫／醫美／自費</span>
+        <h3>自費成長包</h3>
+        <p>把詢問轉成預約，把預約轉成完整療程。</p>
+        <ul><li>自費諮詢 AI 客服</li><li>療程追蹤與召回</li><li>衛教與社群內容</li><li>術後個人化推播</li></ul>
+        <div class="free">免費評估</div>
+        <a class="btn" href="#contact">我要評估</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section>
+  <div class="wrap">
+    <span class="kicker">導入流程</span>
+    <h2>四步驟，從小範圍試用開始</h2>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><h3>免費健檢</h3><p>到診所或線上了解流程與痛點，找出最值得先導入的 AI。</p></div>
+      <div class="step"><span class="n">2</span><h3>提案試用</h3><p>提出導入規劃，先小範圍試用，看得到效果再擴大。</p></div>
+      <div class="step"><span class="n">3</span><h3>正式上線</h3><p>串接系統、設定內容、教育訓練，讓團隊用得順手。</p></div>
+      <div class="step"><span class="n">4</span><h3>持續陪跑</h3><p>定期檢視成效、調整 AI 回覆與流程，越用越聰明。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-sec" id="faq" style="padding-top:0">
+  <div class="wrap split">
+    <div>
+      <span class="kicker">常見問題</span>
+      <h2>導入前，<br>你可能想問</h2>
+      <p class="lead">還有其他問題？直接打電話給我。</p>
+    </div>
+    <div>
+      <details open><summary>病人資料交給 AI 安全嗎？</summary><p>資料處理遵循個資法與樂衍 ISO 27001 資訊安全規範，只使用完成任務所需的最少資料，並可依診所要求做去識別化處理。</p></details>
+      <details><summary>AI 會不會亂回答病人問題？</summary><p>AI 客服只依診所確認過的內容回答，遇到醫療判斷或無法確定的問題，會轉交給真人處理，不會自行給醫療建議。</p></details>
+      <details><summary>我不是用樂晴系統，也可以導入嗎？</summary><p>可以。LINE AI 客服、行銷內容、客製小工具都不限系統；資料串接類服務則需評估你的系統是否提供資料存取方式。</p></details>
+      <details><summary>導入需要多久？</summary><p>依項目而定。LINE AI 櫃台、行銷內容通常較快上線；需要串接資料的服務，會在評估後提供時程。</p></details>
+      <details><summary>費用怎麼算？</summary><p>先免費評估，依診所規模與導入項目報價，不會有隱藏費用。</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="cbox">
+      <div>
+        <h2>預約免費 AI 導入評估</h2>
+        <p class="lead">直接來電，我會親自跟你聊聊診所目前的狀況，評估最適合導入的 AI。</p>
+        <a class="phone" href="tel:0926192178">0926-192-178</a>
+        <div class="who">邱珞｜樂衍有限公司 AI 工程師</div>
+      </div>
+      <div class="ph"><img src="assets/photos/meeting.jpg" alt="導入評估討論" onerror="this.remove()"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 邱珞｜樂衍有限公司 AI 系統導入・樂晴 HIS 診所 AI 加值服務｜<a href="https://www.leyan.tw/" target="_blank" rel="noopener">樂衍官網</a></footer>
+</body>
+</html>
