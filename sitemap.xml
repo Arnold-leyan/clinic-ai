@@ -2,7 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://leyan.nordchiou.com/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <image:image><image:loc>https://leyan.nordchiou.com/assets/photos/hero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://leyan.nordchiou.com/logo.png</image:loc></image:image>
   </url>
 </urlset>
